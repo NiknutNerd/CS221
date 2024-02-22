@@ -9,9 +9,15 @@
 #include <string>
 using namespace std;
 
-class ItemType{
+class ItemType
+{
     string description;
     long long int VIN;
 public:
     ItemType();
+    ItemType(string description, long long int VIN);
+    ~ItemType();
+    long long int GetData(string &input);
+    string Compare(ItemType *otherItem);
+    void PrintInfo();
 };

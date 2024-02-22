@@ -6,7 +6,18 @@
 //Compiler: CLion Nova 2024.1 EAP
 
 #pragma once
+#include "ItemType.h"
 
-class Node {
-
+class Node
+{
+private:
+    ItemType* item;
+    Node* next;
+public:
+    Node();
+    Node(ItemType newItem);
+    ~Node();
+    void SetNext(Node* newNext);
+    ItemType GetItem();
+    Node* Next();
 };

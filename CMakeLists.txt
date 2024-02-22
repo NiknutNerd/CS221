@@ -38,4 +38,5 @@ add_executable(Program2 Assignments/Program2/InventoryManager.cpp Assignments/Pr
         Assignments/Program2/Node.cpp
         Assignments/Program2/Node.h
         Assignments/Program2/ItemType.cpp
-        Assignments/Program2/ItemType.h)
+        Assignments/Program2/ItemType.h
+        Assignments/Program2/Tester.cpp)
