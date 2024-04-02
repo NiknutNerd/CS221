@@ -40,3 +40,12 @@ add_executable(Program2 Assignments/Program2/InventoryManager.cpp Assignments/Pr
         Assignments/Program2/ItemType.cpp
         Assignments/Program2/ItemType.h
         Assignments/Program2/Tester.cpp)
+add_executable(Program4 Assignments/Program4/CS221Program4.cpp
+        Assignments/Program4/BSTree.cpp
+        Assignments/Program4/BSTree.h
+        Assignments/Program4/ItemType.cpp
+        Assignments/Program4/ItemType.h)
+add_executable(Program3 Assignments/Program3/ItemType.cpp Assignments/Program3/ItemType.h
+        Assignments/Program3/CityList.cpp
+        Assignments/Program3/CityList.h
+        Assignments/Program3/Program3Tester.cpp)
